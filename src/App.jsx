@@ -1,8 +1,8 @@
 // src/App.jsx
 import React from "react";
 import Navbar from "./components/Navbar";
-import TodoList from "./components/TodoList/TodoList.jsx";
-
+import TodoList from "./components/TodoList";
+import PomodoroTimer from "./components/PomodoroTimer";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
       <Navbar />
       <div className="container mx-auto p-4">
         <TodoList />
+        <PomodoroTimer />
       </div>
     </div>
   );

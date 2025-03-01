@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import TodoList from "./components/TodoList";
 import PomodoroTimer from "./components/PomodoroTimer";
-import Weather from "./components/Weather"; // Import Weather Component
+import Weather from "./components/Weather";
+import Quote from "./components/Quote";  // Import Quote component
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <div className="container mx-auto p-4">
         <TodoList />
         <PomodoroTimer />
-        <Weather /> {/* Display Weather Component */}
+        <Weather />
+        <Quote />  {/* Display the Quote component */}
       </div>
     </div>
   );

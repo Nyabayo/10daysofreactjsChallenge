@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add Dark Mode Support */
+html.dark {
+  background-color: #1a202c;
+  color: white;
+}
